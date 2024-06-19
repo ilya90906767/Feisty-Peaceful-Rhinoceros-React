@@ -166,7 +166,6 @@
   justify-content: center;
 }
 
-
 @media(max-width: 767px) {
   .sign-in9-container2 {
     padding-left: var(--dl-space-space-threeunits);
@@ -202,8 +201,5 @@
   }
   .sign-in9-button1 {
     width: 100%;
-  }
-  .sign-in9-root-class-name {
-    display: none;
   }
 }

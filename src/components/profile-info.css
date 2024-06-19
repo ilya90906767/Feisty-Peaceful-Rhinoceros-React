@@ -1,0 +1,121 @@
+.profile-info-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-info-section-title {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.profile-info-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-info-text {
+  align-self: flex-start;
+}
+.profile-info-content1 {
+  gap: 96px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-info-content2 {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-info-row {
+  gap: 48px;
+  display: flex;
+  max-width: 1200px;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.profile-info-card {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.profile-info-content3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-info-title {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-info-content4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-info-button {
+  width: 100%;
+  max-width: 300px;
+}
+@media(max-width: 991px) {
+  .profile-info-row {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media(max-width: 767px) {
+  .profile-info-row {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .profile-info-content1 {
+    align-self: center;
+  }
+  .profile-info-content2 {
+    width: 476px;
+    height: 969px;
+    align-self: center;
+  }
+  .profile-info-placeholder-image {
+    height: 450px;
+  }
+  .profile-info-content3 {
+    align-self: center;
+  }
+  .profile-info-content4 {
+    align-self: center;
+  }
+  .profile-info-button {
+    width: 100%;
+    align-self: center;
+  }
+}

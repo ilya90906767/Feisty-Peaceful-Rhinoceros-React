@@ -1,0 +1,107 @@
+.long-blog-post-content {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.long-blog-post-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.long-blog-post-header {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.long-blog-post-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.long-blog-post-rate {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.long-blog-post-content2 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.long-blog-post-avatar {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+}
+.long-blog-post-author-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.long-blog-post-content3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.long-blog-post-text1 {
+  font-weight: 600;
+}
+.long-blog-post-time {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+}
+.long-blog-post-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.long-blog-post-button {
+  width: 100%;
+  align-self: center;
+}
+.long-blog-post-text3 {
+  text-align: center;
+}
+
+@media(max-width: 767px) {
+  .long-blog-post-max-width {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .long-blog-post-header {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .long-blog-post-text {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .long-blog-post-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .long-blog-post-rate {
+    height: 50px;
+  }
+  .long-blog-post-content2 {
+    gap: var(--dl-space-space-halfunit);
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .long-blog-post-button {
+    width: 100%;
+  }
+}

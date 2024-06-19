@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import SignIn9 from '../components/sign-in9'
 import './land.css'
 
 const Land = (props) => {
@@ -12,7 +11,6 @@ const Land = (props) => {
         <title>Feisty Peaceful Rhinoceros</title>
         <meta property="og:title" content="Feisty Peaceful Rhinoceros" />
       </Helmet>
-      <SignIn9 rootClassName="sign-in9-root-class-name"></SignIn9>
       <div className="land-container1">
         <img
           alt="image"
